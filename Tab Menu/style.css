@@ -1,0 +1,31 @@
+
+
+#tab_menu .menu{
+    display: flex;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+#tab_menu .menu div{
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: baclground-color 0.5s;
+
+}
+#tab_menu .menu div:hover{
+    background-color: #ddd;
+}
+
+#tab_menu .content{
+    padding: 30px 20px;
+border: 1px solid #ccc;
+border-top: none;
+}
+.active{
+    background-color:#aaa ;
+}
+.active:hover{
+    background-color:#aaa !important ;
+}
+ 
